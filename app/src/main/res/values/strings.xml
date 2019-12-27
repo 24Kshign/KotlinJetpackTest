@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KotlinJetpackTest</string>
+
+    <string name="welcome">欢迎页面</string>
+</resources>

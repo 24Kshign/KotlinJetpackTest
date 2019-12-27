@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/am_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigation测试" />
+
+    <Button
+        android:id="@+id/am_bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BottomBarNav测试" />
+
+    <Button
+        android:id="@+id/am_viewmodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewModel测试" />
+
+    <Button
+        android:id="@+id/am_viewmodel_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewModelFragment数据共享测试" />
+
+    <Button
+        android:id="@+id/am_viewmodel_livedata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ViewModelLiveData测试" />
+
+</LinearLayout>

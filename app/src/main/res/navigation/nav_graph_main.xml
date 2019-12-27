@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/welcomeFragment"
+    tools:ignore="UnusedNavigation">
+
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.kotlinjetpacktest.navigation.fragment.FragmentWelcome"
+        tools:layout="@layout/fragment_welcome"
+        android:label="WelcomeFragment">
+        <action
+            android:id="@+id/action_welcomeFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        tools:layout="@layout/fragment_register"
+        android:name="com.example.kotlinjetpacktest.navigation.fragment.FragmentRegister"
+        android:label="RegisterFragment" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.kotlinjetpacktest.navigation.fragment.FragmentLogin"
+        tools:layout="@layout/fragment_login"
+        android:label="LoginFragment" />
+</navigation>
